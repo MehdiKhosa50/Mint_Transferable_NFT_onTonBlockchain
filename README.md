@@ -1,12 +1,12 @@
-# Soulbound NFT Collection on Ton Blockchain Using Tact
+# NFT Collection on Ton Blockchain Using Tact
 
-This project implements a Soulbound NFT (Non-Fungible Token) collection smart contract on the TON blockchain using Tact. Soulbound NFTs are non-transferrable tokens, often used for credentials, achievements, or memberships that are intrinsically tied to a specific address.
+This project implements a NFT (Non-Fungible Token) collection smart contract on the TON blockchain using Tact. NFTs are transferrable tokens, often used for credentials, achievements, or memberships that are intrinsically tied to a specific address.
 
-Check my Youtube [Nikandr Surkov](https://www.youtube.com/@NikandrSurkov) for more tutorials and guides.
+Credit: Youtube [Nikandr Surkov](https://www.youtube.com/@NikandrSurkov) for more tutorials and guides.
 
 ## About Tact
 
-Tact is a high-level, statically-typed language designed specifically for writing smart contracts on the TON blockchain. It offers a more developer-friendly syntax compared to FunC (the native low-level language of TON), while still compiling down to efficient FunC code. This project showcases the use of Tact for creating complex smart contract systems like Soulbound NFTs.
+Tact is a high-level, statically-typed language designed specifically for writing smart contracts on the TON blockchain. It offers a more developer-friendly syntax compared to FunC (the native low-level language of TON), while still compiling down to efficient FunC code. This project showcases the use of Tact for creating complex smart contract systems like NFTs.
 
 ## Project Structure
 
@@ -26,8 +26,8 @@ Tact is a high-level, statically-typed language designed specifically for writin
 
 1. Clone the repository:
    ```
-   git clone https://github.com/nikandr-surkov/Soulbound-NFT-Collection-on-Ton-Blockchain-Using-Tact.git
-   cd Soulbound-NFT-Collection-on-Ton-Blockchain-Using-Tact
+   git clone https://github.com/MehdiKhosa50/Mint_Transferable_NFT_onTonBlockchain
+   cd Mint_Transferable_NFT_onTonBlockchain
    ```
 
 2. Install dependencies:
@@ -79,30 +79,26 @@ Before deploying your Soulbound NFT collection, you need to prepare the metadata
 
    ```json
    {
-     "name": "SBT Collection by Nikandr Surkov",
-     "description": "SBT collection created by Nikandr Surkov. Check the Nikandr Surkov YouTube channel for more details.",
-     "image": "https://violet-traditional-rabbit-103.mypinata.cloud/ipfs/QmUgZ3kWg36tCVSZeVKXkvsdXkn6dqigqjoBZto9Y8h37z",
-     "cover_image": "https://violet-traditional-rabbit-103.mypinata.cloud/ipfs/QmTcULBo1eAFnSFpWdKsrxLUCHRWH3zR4Ut8UJNMgkuEW6",
+     "name": "NFTCollection by Muhammad Muntazir Mehdi",
+     "description": "NFT collection created by Muhammad Muntazir Mehdi.",
+     "image": "https://brown-left-fowl-93.mypinata.cloud/files/bafkreid4jiagap7clbprixxxug3a5zcf7mzvtzexbbspnkudlccif3vj6q",
+     "cover_image": "https://brown-left-fowl-93.mypinata.cloud/files/bafkreid4jiagap7clbprixxxug3a5zcf7mzvtzexbbspnkudlccif3vj6q",
      "social_links": [
        {
-         "name": "YouTube",
-         "url": "https://www.youtube.com/@NikandrSurkov"
+         "name": "Website",
+         "url": "https://mehdikhosa.vercel.app/"
        },
        {
-         "name": "Website",
-         "url": "https://nikandr.com"
+         "name": "LinkedIn",
+         "url": "https://www.linkedin.com/in/mehdikhosa/"
        },
        {
          "name": "Telegram",
-         "url": "https://t.me/nikandr_s"
-       },
-       {
-         "name": "Twitter",
-         "url": "https://x.com/NikandrSurkov"
+         "url": "https://t.me/mehdikhosa50"
        },
        {
          "name": "GitHub",
-         "url": "https://github.com/nikandr-surkov"
+         "url": "https://github.com/MehdiKhosa50/"
        }
      ]
    }
@@ -112,9 +108,9 @@ Before deploying your Soulbound NFT collection, you need to prepare the metadata
 
    ```json
    {
-     "name": "SBT Item",
-     "description": "SBT item from SBT collection created by Nikandr Surkov. Check the Nikandr Surkov YouTube channel for more details.",
-     "image": "https://violet-traditional-rabbit-103.mypinata.cloud/ipfs/QmUgZ3kWg36tCVSZeVKXkvsdXkn6dqigqjoBZto9Y8h37z"
+     "name": "NFT Item",
+     "description": "NFT item from ArgonTeq collection created by Muhammad Muntazir Mehdi.",
+     "image": "https://brown-left-fowl-93.mypinata.cloud/files/bafkreid4jiagap7clbprixxxug3a5zcf7mzvtzexbbspnkudlccif3vj6q"
    }
    ```
 
@@ -155,13 +151,13 @@ The script will output the newly minted NFT's index and address.
 
 ## Smart Contract Details
 
-The Soulbound NFT collection, written in Tact, consists of two main contracts:
+The NFT collection, written in Tact, consists of two main contracts:
 
 1. `NftCollection`: Manages the collection of NFTs.
 2. `NftItem`: Represents individual NFT items.
 
 Key features:
-- Non-transferrable NFTs (Soulbound)
+- transferrable NFTs
 - Minting functionality
 - Ownership proof mechanism
 - Revocation capability by authority
@@ -169,4 +165,3 @@ Key features:
 ## License
 
 This project is licensed under the MIT License.
-
