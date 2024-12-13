@@ -1,0 +1,25 @@
+{
+    "name": "NftCollection",
+    "description": "NftCollection by Muhammad Muntazir Mehdi",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZgxifJKWgnG4RxsLP4JQu6wa1BEdAes9EsRzifPB1KJv",
+    "cover_image": "https://gateway.pinata.cloud/ipfs/QmZgxifJKWgnG4RxsLP4JQu6wa1BEdAes9EsRzifPB1KJv",
+
+    "social_links": [
+        {
+            "name": "Telegram",
+            "url": "https://t.me/mehdikhosa50"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mehdikhosa/"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/MehdiKhosa50/"
+        },
+        {
+            "name": "Portfolio",
+            "url": "https://mehdikhosa.vercel.app/"
+        }
+    ]
+}

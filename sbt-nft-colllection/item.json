@@ -1,0 +1,25 @@
+{
+    "name": "NFT #1",
+    "description": "Individual NFT by Muhammad Muntazir Mehdi",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZgxifJKWgnG4RxsLP4JQu6wa1BEdAes9EsRzifPB1KJv",
+    "attributes": [
+        {
+            "trait_type": "Created By",
+            "value": "Muhammad Muntazir Mehdi"
+        },
+        {
+            "trait_type": "Collection",
+            "value": "NftCollection"
+        }
+    ],
+    "social_links": [
+        {
+            "name": "Telegram",
+            "url": "https://t.me/mehdikhosa50"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mehdikhosa/"
+        }
+    ]
+}
